@@ -1,4 +1,11 @@
 ## karen43
+A Node.js server that handles a few basic requests on words/avg_len, words/most_com, sentences/avg_len
+- Running at http://karen43.herokuapp.com
+- Built with the Node.js [Express](http://expressjs.com/) framework
+- Expects POST requests with a JSON body with a single tag `"text"` such as: `{ "text" : "My cat is gray. It doesn't have feathers." }`
+- Returns an error or a JSON response with a single tag `"result"`
+- Code is primarily in `index.js` (didn't split into multiple files for now)
+- A few sample test cases are in `test.json`
 
 ###words/avg_len
 Takes a string of text and returns the average length of words in the string
