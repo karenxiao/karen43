@@ -1,0 +1,6 @@
+{
+  "name": "karen43",
+  "description": "A cool app",
+  "repository": "https://github.com/heroku/karen43",
+  "keywords": ["node", "express", "static"],
+}
