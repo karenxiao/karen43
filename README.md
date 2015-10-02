@@ -46,7 +46,7 @@ Takes a string of text and returns the average length of sentences
 	- string that is empty
 	- string of whitespaces
 	- string of non-alphanumeric characters
-Known issues
+- Known issues
 	- Periods used for abbreviation will be treated as the end of sentence
 	(for example, "Mr. Mark" will be treated as two sentences)
 	
